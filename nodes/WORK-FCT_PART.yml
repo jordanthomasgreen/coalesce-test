@@ -178,14 +178,17 @@ operation:
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          PART: 3159ef4c-7bf8-4b9c-9da1-cfb224bddbae
         customSQL:
           customSQL: ""
         dependencies:
           - locationName: SAMPLE
             nodeName: PART
         join:
-          joinCondition: FROM {{ ref('SAMPLE', 'PART') }} "PART"
+          joinCondition: |-
+            FROM {{ ref('SAMPLE', 'PART') }} "PART"
+            where P_PARTKEY = {{ parameters.date }}
         name: FCT_PART
         noLinkRefs: []
   name: FCT_PART

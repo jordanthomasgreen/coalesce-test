@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "1"
+includeSelector: "+{name: FCT_PART location: WORK nodeType: Fact }"
+name: fact_part
+type: Job

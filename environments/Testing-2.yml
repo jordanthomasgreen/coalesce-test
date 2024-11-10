@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "2"
+mappingDefinitions:
+  SAMPLE:
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
+  WORK:
+    database: DATALAKE_DEV
+    schema: PUBLIC
+name: Testing
+type: Environment

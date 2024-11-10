@@ -1,0 +1,7 @@
+fileVersion: 1
+id: "1"
+name: fact_part
+steps:
+  - 3159ef4c-7bf8-4b9c-9da1-cfb224bddbae
+  - caa53364-06d1-4074-a8a9-358f5277a5a4
+type: Subgraph
